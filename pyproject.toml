@@ -1,0 +1,14 @@
+[project]
+name = "ask-sc"
+version = "0.1.0"
+description = "Ask a question about a screenshot using Qwen 2.5 VL via llama-mtmd-cli"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+ask-sc = "ask_sc:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
